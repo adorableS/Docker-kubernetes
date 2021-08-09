@@ -4,14 +4,14 @@
 
 |HOST|IP address  | arch | CPU | Memory | OS |
 |--|--|--|--|--|--|
-|master.example.com|10.100.0.104|X86_64|2core|4GiB |CentOS 7.6|
-|node1.example.com|10.100.0.101|X86_64|2core|2GiB |CentOS 7.6|
-|node2.example.com|10.100.0.102|X86_64|2core|2GiB |CentOS 7.6|
-|node3.example.com|10.100.0.103|X86_64|2core|2GiB |CentOS 7.6|
+|k8s-master|10.100.0.104|X86_64|2core|2GiB |Ubuntu 20.04|
+|docker-ubuntu|10.100.0.105|X86_64|2core|2GiB |Ubuntu 20.04|
+|docker-centos|10.100.0.106|X86_64|2core|2GiB |CentOS 7.6|
+
 
 
 ## 1. Docker Install
-master, node1,node2, node3 시스템에 도커 설치
+시스템에 도커 설치
 
 [docs.docker.com](https://docs.docker.com/engine/install/centos/)
 
